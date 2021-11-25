@@ -12,6 +12,5 @@
 
 **4. As you may suspect by now, this code is part of a more extensive system. With the information that you have, can you explain how the architecture of this system is? You can be as detailed as you want. You can use draws or diagrams if you find it necessary.**
 
-> I do think that this code belongs to a microservice running in a different process, like an autonomous service.
-I can imagine that this system has many different microservices that perform specific tasks like processing payments, sending emails and notifications to users, creating bills, generating reports, and so on.
+> I can imagine that this system has many different microservices that perform specific tasks like processing payments, creating bills, generating reports, placing items in a shopping cart, and so on. Those microservices need to communicate between them, so an event-driven architecture is a good fit for this system.
 
